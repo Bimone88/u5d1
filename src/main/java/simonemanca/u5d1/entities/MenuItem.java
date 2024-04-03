@@ -35,6 +35,12 @@ public abstract class MenuItem {
     public void setCalories(int calories) {
         this.calories = calories;
     }
+
+
+    public double getPrezzo() {
+        double prezzo = 1.5;
+        return prezzo;
+    }
 }
 
 
